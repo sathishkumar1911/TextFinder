@@ -37,12 +37,12 @@ Command to execute the jar for the sample folder
 
 Sample output:
 ---------------
-<abspath>\Cloud_Lock\cloud-lock\samplefolder\empty.out:MISS
-<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\empty.out:MISS
-<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\Hit.cap:MISS
-<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\hit.txt:MISS
-<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\miss.me:MISS
-<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample.txt:HIT
-<abspath>\Cloud_Lock\cloud-lock\samplefolder\subfolder\sample.txt:MISS
+/<abspath>\Cloud_Lock\cloud-lock\samplefolder\empty.out:MISS
+/<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\empty.out:MISS
+/<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\Hit.cap:MISS
+/<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\hit.txt:MISS
+/<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample\miss.me:MISS
+/<abspath>\Cloud_Lock\cloud-lock\samplefolder\sample.txt:HIT
+/<abspath>\Cloud_Lock\cloud-lock\samplefolder\subfolder\sample.txt:MISS
 
 Showing absolute path to know the exact subfolder location
