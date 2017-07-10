@@ -9,12 +9,14 @@ This jar file will take the current folder as base folder.
 If you want to run in different machine, just copy and paste the jar file to the destination machine.
 
 To run and test,
-Keep your folder in the same place where the jar is executed.
+Keep your target folder in the same place where the jar is executed.
 
-java -cp cloud-lock-0.0.1-SNAPSHOT.jar com.cl.sample.TextFinder <foldername> <texttosearch>
+## java -cp cloud-lock-0.0.1-SNAPSHOT.jar com.cl.sample.TextFinder <foldername> <texttosearch>
 
 "foldername" and "texttosearch" inputs are mandatory to search. 
 You have to enter the foldername and texttosearch if you miss to give in the command.
+
+
 
 # 3) Test Code and Test data
 As third party libraries are restricted I removed junit and wrote simple java test cases. 
@@ -22,6 +24,11 @@ It will be executed while building project through maven.
 Test code available in Cloud_Lock\cloud-lock\src\test\java\com\cl\sample\TextFinderTest.java file.
 
 # 4) Sample request and output
+Clone this project to you local.
+## git clone https://github.com/sathishkumar1911/TextFinder.git
+Move to the project
+## cd TextFinder
+
 There is a sample folder "samplefolder" in the project. 
 
 Command to execute the jar for the sample folder
